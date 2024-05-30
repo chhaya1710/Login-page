@@ -1,0 +1,118 @@
+body{
+background-image: url(imgfolder/11.webp);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+    
+}  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+} 
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+}
+
+ section .main{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    top: 100px;
+    justify-content: center;
+    display: flex;
+}
+ section .main .main1{
+    width: 30%;
+    position: relative;
+    right: 280px;
+    background-color: #b823e5;
+    height: 400px;
+padding: 10px 20px;
+border-radius: 10px;
+  
+}
+
+section .main .main1 h2{
+    color: rgb(82, 176, 159);
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #ff4584;
+    display: inline-block;
+    letter-spacing: 1px;
+
+}
+section .main .main1 .inputbx {
+    margin-bottom: 5px;
+}
+section .main .main1 .inputbx span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display:inline-block;
+    color: ghostwhite;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+section .main .main1 .inputbx input{
+    width: 100%;
+    padding: 5px 10px;
+    outline:none;
+    font-weight: 400;
+    border: 1px solid rgb(32, 213, 143);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    background: transparent;
+    border-radius: 30px;    
+}
+section .main .main1 .inputbx input[type="submit"]{
+    background: #df7296;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+section .main .main1 .inputbx input[type="submit"]:hover{
+    background: #f53677;
+
+}
+section .main .main1 .remember{
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 400;
+    font: 20px;
+}
+section .main .main1 .inputbx p{
+    color:white;
+    margin-top: 20px;
+}
+section .main .main1 .inputbx p a{
+    color: yellow;
+    margin-right: 20px;
+}
+.social img{
+    height: 30px;
+    width: 50px;
+    border-radius: 15px;
+    
+
+}
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+ 
+    
+}
+
+
+
